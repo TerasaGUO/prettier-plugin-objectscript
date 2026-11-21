@@ -1,0 +1,10 @@
+ROUTINE FormatRoutine
+FormatRoutine ; Sum integers
+ quit
+Sum(n)
+ new i,total
+ set total=0
+ for i=1:1:n {
+   set total=total+i
+ }
+ quit total

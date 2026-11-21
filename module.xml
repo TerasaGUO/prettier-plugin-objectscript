@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26">
+  <Document name="prettier-plugin-objectscript.ZPM">
+    <Module>
+      <Name>prettier-plugin-objectscript</Name>
+      <Version>0.2.0</Version>
+      <Packaging>module</Packaging>
+      <Description>Distribute the Prettier plugin for ObjectScript classes and routines.</Description>
+      <FileCopy Name="index.js" Target="${libdir}prettier-plugin-objectscript/${namespace}/index.js"/>
+      <FileCopy Name="format.js" Target="${libdir}prettier-plugin-objectscript/${namespace}/format.js"/>
+      <FileCopy Name="package.json" Target="${libdir}prettier-plugin-objectscript/${namespace}/package.json"/>
+      <FileCopy Name="README.md" Target="${libdir}prettier-plugin-objectscript/${namespace}/README.md"/>
+      <FileCopy Name="README.zh-CN.md" Target="${libdir}prettier-plugin-objectscript/${namespace}/README.zh-CN.md"/>
+    </Module>
+  </Document>
+</Export>
