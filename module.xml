@@ -11,6 +11,7 @@
       <FileCopy Name="package.json" Target="${libdir}prettier-plugin-objectscript/${namespace}/package.json"/>
       <FileCopy Name="README.md" Target="${libdir}prettier-plugin-objectscript/${namespace}/README.md"/>
       <FileCopy Name="README.zh-CN.md" Target="${libdir}prettier-plugin-objectscript/${namespace}/README.zh-CN.md"/>
+      <FileCopy Name="LICENSE" Target="${libdir}prettier-plugin-objectscript/${namespace}/LICENSE"/>
     </Module>
   </Document>
 </Export>
